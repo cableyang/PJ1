@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffca1c"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/w_b"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="152dp"
+        android:ems="10"
+        android:textColor="#ff0f0f"
+        android:textSize="60dp" />
+
+    <EditText
+        android:id="@+id/w_s"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_x="127dp"
+        android:layout_y="152dp"
+        android:ems="10"
+        android:textColor="#ff0000"
+        android:textSize="60dp" />
+
+    <EditText
+        android:id="@+id/w_n"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="150dp"
+        android:clickable="false"
+        android:ems="10"
+        android:textColor="#ff0000"
+        android:textSize="60dp" >
+
+ 
+    </EditText>
+
+    <EditText
+        android:id="@+id/w_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="258dp"
+        android:autoText="false"
+        android:duplicateParentState="false"
+        android:ems="10"
+        android:enabled="false"
+        android:fitsSystemWindows="false"
+        android:longClickable="false"
+        android:password="false"
+        android:singleLine="false"
+        android:textColor="#0000ff"
+        android:textSize="40dp" />
+    <ImageView
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:id="@+id/imageView" android:layout_x="92dp" android:layout_y="12dp"
+            android:background="@drawable/seulog"/>
+
+</AbsoluteLayout>

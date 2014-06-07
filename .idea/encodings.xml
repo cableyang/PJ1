@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/HelloAndroid/src/iflab/model/ECG.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/HelloAndroid/src/iflab/myinterface/DBOpenHelper.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/HelloAndroid/src/iflab/myinterface/StudentDAO.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/HelloAndroid/src/iflab/test/HttpECGservice.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/HelloAndroid/src/iflab/test/PatientID.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/HelloAndroid/src/iflab/test/Welcome.java" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/HelloAndroid/src/iflab/test/firstActivity.java" charset="GB2312" />
+  </component>
+</project>
+

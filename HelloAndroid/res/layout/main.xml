@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LL"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical" >
+    
+   <LinearLayout
+        android:id="@+id/ECG"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_weight="0.04"
+        android:orientation="vertical" >
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/PPG"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_weight="0.04"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+    
+      <LinearLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="55.0dip"
+        android:layout_gravity="bottom"
+        android:background="@drawable/tool_bar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+ 			<Button
+            android:id="@+id/MQRS"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+          
+            android:textColor="#00ffff"
+            android:text="QRS"
+            />
+ 			
+ 			<Button
+            android:id="@+id/MHR"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="3.0"
+            
+            android:textColor="#00ffff"
+            android:text="HR"
+            />
+ 			<Button
+            android:id="@+id/MSPO2"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+          
+            android:textColor="#ffffff"
+            android:text="SPO2"
+            />
+ 			</LinearLayout>
+ 
+    <LinearLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="55.0dip"
+        android:layout_gravity="bottom"
+        android:background="@drawable/tool_bar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+ 			<ToggleButton
+            android:id="@+id/remotecontrol"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+          
+            android:textColor="#ffffff"
+             android:textOn="远程存储"          
+             android:textOff="暂停远程"
+            />
+            <ToggleButton
+            android:id="@+id/control"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+          
+            android:textColor="#ffffff"
+             android:textOn="显示"          
+             android:textOff="暂停"
+            />
+            
+             <ToggleButton
+            android:id="@+id/localsql"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+          
+            android:textColor="#ffffff"
+            android:textOn="数据保存中"          
+            android:textOff="暂停保存"
+            />
+             
+        <Button
+            android:id="@+id/bluestart"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+          
+            android:drawableTop="@drawable/bluetooth"
+            android:paddingTop="10.0dip"
+            android:text="启动蓝牙"
+            android:textColor="#ffffffff"
+            android:textSize="10.0sp" />
+
+        <Button
+            android:id="@+id/infor"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            
+            android:drawableTop="@drawable/person"
+            android:paddingTop="10.0dip"
+            android:text="个人信息"
+            android:textColor="#ffffffff"
+            android:textSize="10.0sp" />
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+             
+            android:drawableTop="@drawable/data_analysis"
+            android:paddingTop="10.0dip"
+            android:text="历史数据查询"
+            android:textColor="#ffffffff"
+            android:textSize="10.0sp" />
+
+        <Button 
+            android:id="@+id/setting"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+      
+            android:drawableTop="@drawable/config"
+            android:paddingTop="10.0dip"
+           
+             android:textColor="#ffffffff"
+             android:text="配置"
+            android:textSize="10.0sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
